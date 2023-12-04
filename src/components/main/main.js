@@ -6,7 +6,7 @@ const Main = ({data}) => {
   var x = data
    return (
     <div className="Main">
-      <h2>WHO ARE YOU?</h2>
+      <h2 className="title">WHO ARE YOU?</h2>
       <div className="cards">
         {data.map((item) => (
           <div className="card">
