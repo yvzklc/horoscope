@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Rubik Distressed,cursive;
 }
 a {
      
@@ -9,6 +10,9 @@ a {
     color: black;
   }
 .nav {
+  .Title{
+    font-size: 2rem;
+  }
   background-color: rgb(205, 137, 12);
   height: 8vh;
   display: flex;
@@ -38,6 +42,7 @@ a {
         color: white;
         background-color: black;
         border-radius: 16px;
+        width: 8vw;
       
         a {
           color: white;

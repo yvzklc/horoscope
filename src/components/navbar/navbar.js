@@ -3,7 +3,7 @@ import "./navbar.scss"
 const Navbar = () => {
   return (
     <div className='nav'>
-      <a href="#">HOROSCOPE</a>
+      <a className='Title' href="#">HOROSCOPE</a>
       <ul>
         <li><a href="#">Horoscope</a></li>
         <li><a href="#">Tarot</a></li>
